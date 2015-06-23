@@ -1,0 +1,11 @@
+en:
+  activemerchant:
+    is_required: is required
+    cannot_be_empty: cannot be empty
+    is_not_a_valid_month: is not a valid month
+    expired: expired
+    is_not_a_valid_year: is not a valid year
+    is_invalid: is invalid
+    is_not_a_valid_credit_card_number: is not a valid credit card number
+    is_not_the_correct_card_brand: is not the correct card brand
+
