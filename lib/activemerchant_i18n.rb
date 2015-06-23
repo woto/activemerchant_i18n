@@ -9,11 +9,10 @@ module ActiveMerchant #:nodoc:
 
     def valid_with_i18n?
       valid_without_i18n?
-      result = {}
+      result = Errors.new(self)
       errors.each do |k, errors_array|
-        result[k] = []
         errors_array.each do |error_string|
-          result[k] << I18n.translate(error_string.parameterize.underscore, scope: 'activemerchant')
+          result.add(k, I18n.translate(error_string.parameterize.underscore, scope: 'activemerchant'))
         end
       end
       @errors = result
