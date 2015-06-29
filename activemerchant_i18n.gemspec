@@ -7,11 +7,11 @@ require "activemerchant_i18n/version"
 Gem::Specification.new do |s|
   s.name        = "activemerchant_i18n"
   s.version     = ActivemerchantI18n::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ActivemerchantI18n."
-  s.description = "TODO: Description of ActivemerchantI18n."
+  s.authors     = ["Ruslan Kornev"]
+  s.email       = ["oganer@gmail.com"]
+  s.homepage    = "http://example.com"
+  s.summary     = "Summary of ActivemerchantI18n."
+  s.description = "Description of ActivemerchantI18n."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
